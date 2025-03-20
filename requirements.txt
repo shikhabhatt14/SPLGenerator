@@ -1,0 +1,14 @@
+This application generates SPL (Splunk Processing Language) query using user input in Natural languate
+
+- UI is created using streamlit
+- openai API is used
+- gpt-4 and gemini-2.0-flash models are used
+
+prompts.py
+- get_prompt function takes user input in Natural language and uses it to create the prompts as a f-string (formatted string literals)
+
+appUsingGpt.py
+- creates a Splunk Query Generator using gpt-4(paid) model using openai API
+
+appUsingGemini.py
+- creates a Splunk Query Generator using gemini-2.0-flash(free) model using openai API
