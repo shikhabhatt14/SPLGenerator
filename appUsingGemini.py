@@ -3,7 +3,7 @@ from openai import OpenAI
 from prompts import get_prompt
 
 client = OpenAI(
-    api_key="AIzaSyDoQNcHV8e2gGc50qkKhvMpC_YIUCAk1Og",
+    api_key="YOUR_API_KEY",
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 

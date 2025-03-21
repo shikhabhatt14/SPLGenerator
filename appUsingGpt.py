@@ -3,8 +3,7 @@ import openai
 from prompts import get_prompt
 
 # Set your OpenAI key
-#openai.api_key = "YOUR_OPENAI_API_KEY"
-openai.api_key = "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"
+openai.api_key = "YOUR_OPENAI_API_KEY"
 
 st.title("🧠 Splunk Query Generator")
 st.write("Enter a natural language request to generate a Splunk SPL query.")
